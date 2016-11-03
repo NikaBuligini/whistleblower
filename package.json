@@ -1,0 +1,15 @@
+{
+  "name": "whistleblower",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/NikaBuligini/whistleblower",
+    "type": "git"
+  },
+  "author": "Nikoloz Buligini <nbuligini11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.1.1",
+    "diskusage": "^0.1.5"
+  }
+}
