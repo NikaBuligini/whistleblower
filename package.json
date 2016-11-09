@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "cron": "^1.1.1",
-    "diskusage": "^0.1.5"
+    "diskusage": "^0.1.5",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
   }
 }

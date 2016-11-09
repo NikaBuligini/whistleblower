@@ -1,7 +1,7 @@
 const disk = require('./app/diskusage');
 const { CronJob } = require('cron');
 
-new CronJob('0-30 * * * * *', () => {
+new CronJob('*/5 * * * * *', () => {
   disk.check('c:', (err, info) => {
     console.log(info.available);
     console.log(info.free);
