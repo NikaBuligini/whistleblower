@@ -24,7 +24,7 @@ module.exports = {
 
       rp(options)
         .then((parsedBody) => {
-          console.log(parsedBody);
+          // console.log(parsedBody);
         })
         .catch((err) => {
           console.log(err);
